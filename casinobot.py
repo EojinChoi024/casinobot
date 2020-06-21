@@ -156,5 +156,5 @@ async def on_message(message):
             f.write(str(idA[i])+","+str(moneyA[i])+","+str(timeA[i])+"\n")
         f.close()
 
-access_token = os.environ["BOT_TOKEN]
+access_token = os.environ["BOT_TOKEN"]
 client.run("access_token")
